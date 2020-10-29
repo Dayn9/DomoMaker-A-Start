@@ -50,7 +50,7 @@ nav:nth-child(1) {
 .domoForm {
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 1000px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
@@ -259,4 +259,26 @@ h3.domoAge {
 
 .domo:last-child {
     margin-bottom:10px;
+}
+
+#domoChart {
+    text-align: center;
+    width: 500px;
+    border: 2px solid #55acee;
+    border-radius: 4px;
+    margin: 40px auto;
+    margin-top: 100px;
+}
+
+.chartButton {
+    transition: background-color 0.4s ease;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    background-color: #55acee;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
 }

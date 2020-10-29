@@ -134,11 +134,6 @@ var sendAjax = function sendAjax(type, action, data, success) {
     data: data,
     dataType: "json",
     success: success,
-
-    /*success: (result, status, xhr) => {
-      $("#domoMessage").animate({width:'hide'},350);
-          window.location = result.redirect;
-    },*/
     error: function error(xhr, status, _error) {
       var messageObj = JSON.parse(xhr.responseText);
       handleError(messageObj.error);
